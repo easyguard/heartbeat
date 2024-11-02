@@ -1,0 +1,10 @@
+[package]
+name = "heartbeat"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+config = { version = "0.14.1", features = ["toml"] }
+mail-send = "0.4.9"
+tokio = { version = "1.41.0", features = ["macros", "net", "rt-multi-thread", "sync"] }
+uuid = { version = "1.11.0", features = ["v4", "fast-rng"] }

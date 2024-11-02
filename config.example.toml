@@ -1,0 +1,17 @@
+[smtp]
+fromName = "EasyGuard"
+fromEmail = "easyguard@example.com"
+toName = "Admin"
+toEmail = "admin@example.com"
+down_subject = "EasyGuard: %NAME% is down!"
+up_subject = "[OK] EasyGuard: %NAME% is up!"
+down_body = "EasyGuard Firewall is down: %NAME% (%UUID%)"
+up_body = "EasyGuard Firewall is back up: %NAME% (%UUID%)"
+hostname = "smtp.example.com"
+port = 587
+username = "easyguard@example.com"
+password = "password"
+
+[[servers]]
+name = "EasyGuard Main Firewall"
+uuid = "9040c649-06b8-426a-938d-86386d4190a3"
